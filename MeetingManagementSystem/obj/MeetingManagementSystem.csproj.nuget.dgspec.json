@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\New folder (3)\\TestProject\\MeetingManagementSystem_sln\\MeetingManagementSystem\\MeetingManagementSystem.csproj": {}
+    "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\MeetingManagementSystem.csproj": {}
   },
   "projects": {
-    "G:\\New folder (3)\\TestProject\\MeetingManagementSystem_sln\\MeetingManagementSystem\\MeetingManagementSystem.csproj": {
+    "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\MeetingManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem_sln\\MeetingManagementSystem\\MeetingManagementSystem.csproj",
+        "projectUniqueName": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\MeetingManagementSystem.csproj",
         "projectName": "MeetingManagementSystem",
-        "projectPath": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem_sln\\MeetingManagementSystem\\MeetingManagementSystem.csproj",
+        "projectPath": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\MeetingManagementSystem.csproj",
         "packagesPath": "C:\\Users\\Syeed\\.nuget\\packages\\",
-        "outputPath": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem_sln\\MeetingManagementSystem\\obj\\",
+        "outputPath": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Syeed\\AppData\\Roaming\\NuGet\\NuGet.Config",

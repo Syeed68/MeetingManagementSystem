@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YEPT+Dybgs0iQJvJGjxi7FAFl537bGa2ufFjekklNoDGrkdZFVU0ZbgrdAEXe3hiLsEuqsFTMTtQYgHyoaY/gQ==",
+  "dgSpecHash": "p0kvoi96fcfI97l8a9ohZdHc0WuG37MssCUYwRXE/EMmeIFkQyeszp59iOEUfk7V29TXqK3R60yvz4Y8i+H9fQ==",
   "success": true,
-  "projectFilePath": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem_sln\\MeetingManagementSystem\\MeetingManagementSystem.csproj",
+  "projectFilePath": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\MeetingManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Syeed\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Syeed\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
