@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                Meeting Minutes
+            </div>
+            <div class="card-body">
+                <from id="addMeetingMinutes">
+                    <div class="row">
+                        <div class="form-group">
+                            <input type="radio" id="corporate" name="corporate" value="1">
+                            <label for="html">Corporate</label> &nbsp;
+                            <input type="radio" id="individual" name="individual" value="2">
+                            <label for="css">Indivisual</label>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group row">
+                                <label for="name" class="col-sm-3">Name<span class="text-danger">*</span></label>
+                                <div class="col-sm-7">
+                                    <select id="name" class="form-control form-control-sm">
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group row">
+                                <label class="col-sm-3">Name<span class="text-danger">*</span></label>
+                                <div class="col-sm-7">
+                                    <input type="text" id="addName" name="addName" class="form-control form-control-sm" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </from>
+            </div>
+        </div>
+    </div>
+</div>
