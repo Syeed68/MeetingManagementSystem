@@ -2,7 +2,7 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css" rel="stylesheet" />
 <div class="row">
     <div class="col-12">
         <div class="card">
@@ -13,17 +13,17 @@
                 <from id="addMeetingMinutes">
                     <div class="row">
                         <div class="form-group">
-                            <input type="radio" id="corporate" name="corporate" value="1">
-                            <label for="html">Corporate</label> &nbsp;
-                            <input type="radio" id="individual" name="individual" value="2">
-                            <label for="css">Indivisual</label>
+                            <input type="radio" id="corporate" name="customerType" value="corporate">
+                            <label for="corporate">Corporate</label> &nbsp;
+                            <input type="radio" id="individual" name="customerType" value="individual">
+                            <label for="individual">Indivisual</label>
                         </div>
                     </div>
                     <hr />
                     <div class="row">
                         <div class="col-6">
                             <div class="form-group row">
-                                <label for="name" class="col-sm-3">Name<span class="text-danger">*</span></label>
+                                <label for="name" class="col-sm-5">Name<span class="text-danger">*</span></label>
                                 <div class="col-sm-7">
                                     <select id="name" class="form-control form-control-sm">
                                     </select>
@@ -32,7 +32,7 @@
                         </div>
                         <div class="col-6">
                             <div class="form-group row">
-                                <label class="col-sm-3">Name<span class="text-danger">*</span></label>
+                                <label class="col-sm-5">Name<span class="text-danger">*</span></label>
                                 <div class="col-sm-7">
                                     <input type="text" id="addName" name="addName" class="form-control form-control-sm" />
                                 </div>
@@ -40,7 +40,7 @@
                         </div>
                         <div class="col-6">
                             <div class="form-group row mt-2">
-                                <label for="date" class="col-sm-3">Date<span class="text-danger">*</span></label>
+                                <label for="date" class="col-sm-5">Date<span class="text-danger">*</span></label>
                                 <div class="col-sm-7">
                                     <input type="text" id="date" name="date" class="form-control form-control-sm" />
                                 </div>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="col-6">
                             <div class="form-group row mt-2">
-                                <label for="meetingDiscusion" class="col-sm-3">Meeting Discusion<span class="text-danger">*</span></label>
+                                <label for="meetingDiscusion" class="col-sm-5">Meeting Discusion<span class="text-danger">*</span></label>
                                 <div class="col-sm-7">
                                     <textarea id="meetingDiscusion" name="meetingDiscusion" class="form-control form-control-sm"></textarea>
                                 </div>
@@ -56,7 +56,7 @@
                         </div>
                         <div class="col-6">
                             <div class="form-group row mt-2">
-                                <label for="cientAttn" class="col-sm-3">Attends From Client Side<span class="text-danger">*</span></label>
+                                <label for="cientAttn" class="col-sm-5">Attends From Client Side<span class="text-danger">*</span></label>
                                 <div class="col-sm-7">
                                     <textarea id="cientAttn" name="cientAttn" class="form-control form-control-sm"></textarea>
                                 </div>
@@ -64,7 +64,7 @@
                         </div>
                         <div class="col-6">
                             <div class="form-group row mt-2">
-                                <label for="meetingDecision" class="col-sm-3">Meeting Decision<span class="text-danger">*</span></label>
+                                <label for="meetingDecision" class="col-sm-5">Meeting Decision<span class="text-danger">*</span></label>
                                 <div class="col-sm-7">
                                     <textarea id="meetingDecision" name="meetingDecision" class="form-control form-control-sm"></textarea>
                                 </div>
@@ -72,34 +72,38 @@
                         </div>
                         <div class="col-6">
                             <div class="form-group row mt-2">
-                                <label for="hostAttn" class="col-sm-3">Attends From Host Side<span class="text-danger">*</span></label>
+                                <label for="hostAttn" class="col-sm-5">Attends From Host Side<span class="text-danger">*</span></label>
                                 <div class="col-sm-7">
-                                    <textarea id="hostAttn" name="hostAttn" class="form-control form-control-sm"></textarea>
+                                    <textarea style="resize:none;width:100%;" id="hostAttn" name="hostAttn" class="form-control form-control-sm"></textarea>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                 </from>
             </div>
             <hr />
             <div class="card-body">
                 <from id="addMeetingMinutes">
-                   
+
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-7">
                             <div class="form-group row">
-                                <label for="product" class="col-sm-3">Interested Product/Service<span class="text-danger">*</span></label>
+                                <label for="product" class="col-sm-5">Interested Product/Service<span class="text-danger">*</span></label>
                                 <div class="col-sm-7">
                                     <select id="product" class="form-control form-control-sm">
                                     </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="form-group row">
-                                <label for="quantity" class="col-sm-3">Quantity<span class="text-danger">*</span></label>
-                                <div class="col-sm-7">
+                        <div class="col-7">
+                            <div class="form-group row mt-1">
+                                <label for="quantity" class="col-sm-5">Quantity<span class="text-danger">*</span></label>
+                                <div class="col-sm-3">
+                                    <input type="text" id="quantity" name="quantity" class="form-control form-control-sm" />
+                                </div>
+                                <label class="col-sm-1">Unit</label>
+                                <div class="col-sm-3">
                                     <input type="text" id="quantity" name="quantity" class="form-control form-control-sm" />
                                 </div>
                             </div>
@@ -107,6 +111,85 @@
                     </div>
                 </from>
             </div>
+            <hr />
+            <div class="card-body">
+                <from id="addMeetingMinutes">
+
+                    <div class="row">
+                        <div class="col-12">
+                            <table class="table table-bordered table-sm">
+                                <thead>
+                                    <tr>
+                                        <td>SL#</td>
+                                        <td>Interested Product/Service Name</td>
+                                        <td>Quantity</td>
+                                        <td>Unit</td>
+                                        <td>Action</td>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </from>
+            </div>
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+        });
+
+        function getCorporateCustomer() {
+            $.ajax({
+                url: "/Customer/GetCorporateCustomerInfo",
+                dataType: "json",
+                type: "GET",
+                success: function (res) {
+                    var list = $("#name");
+                    list.empty();
+                    var option = ``;
+                    option += `<option value="">Select..</option>`
+                    $.each(res, function (key, value) {
+                        option += `<option value="${key.id}">${value.name}</opton>`
+                    });
+                    list.append(option);
+                    $('select').select2({ width: '100%', placeholder: "Select..", allowClear: true });
+                }
+            })
+        }
+
+        function getIndivisualCustomerInfo() {
+            $.ajax({
+                url: "/Customer/GetIndivisualCustomerInfo",
+                dataType: "json",
+                type: "GET",
+                success: function (res) {
+                    var list = $("#name");
+                    list.empty();
+                    var option = ``;
+                    option += `<option value="">Select..</option>`
+                    $.each(res, function (key, value) {
+                        option += `<option value="${key.id}">${value.name}</opton>`
+                    });
+                    list.append(option);
+                    $('select').select2({ width: '100%', placeholder: "Select..", allowClear: true });
+                }
+            })
+        }
+
+        $("input:radio").change(function () {
+            var customerType = $(this).val();
+            console.log(customerType);
+            if (customerType == 'corporate') {
+                getCorporateCustomer();
+            }
+            else if (customerType == 'individual') {
+                getIndivisualCustomerInfo();
+            }
+        });
+
+    </script>
+}

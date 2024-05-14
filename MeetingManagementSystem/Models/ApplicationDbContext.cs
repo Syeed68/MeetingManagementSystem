@@ -9,6 +9,7 @@ namespace MeetingManagementSystem.Models
         {
 
         }
-        public DbSet<Customer> Customer { get; set; }
+        public DbSet<CorporateCustomer> CorporateCustomer { get; set; }
+        public DbSet<IndivisualCustomer> IndivisualCustomer { get; set; }
     }
 }

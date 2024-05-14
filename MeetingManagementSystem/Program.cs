@@ -1,9 +1,11 @@
 using MeetingManagementSystem.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddDbContext<ApplicationDbContext>
     (option=>option.UseSqlServer(builder.Configuration.GetConnectionString("Con")));
 builder.Services.AddControllersWithViews();
