@@ -503,3 +503,4 @@ G:\New folder (3)\TestProject\MeetingManagementSystem\MeetingManagementSystem\ob
 G:\New folder (3)\TestProject\MeetingManagementSystem\MeetingManagementSystem\obj\Debug\net8.0\MeetingManagementSystem.pdb
 G:\New folder (3)\TestProject\MeetingManagementSystem\MeetingManagementSystem\obj\Debug\net8.0\MeetingManagementSystem.genruntimeconfig.cache
 G:\New folder (3)\TestProject\MeetingManagementSystem\MeetingManagementSystem\obj\Debug\net8.0\ref\MeetingManagementSystem.dll
+G:\New folder (3)\TestProject\MeetingManagementSystem\MeetingManagementSystem\bin\Debug\net8.0\libman.json
