@@ -11,6 +11,7 @@ namespace MeetingManagementSystem.Models
         }
         public DbSet<CorporateCustomer> CorporateCustomer { get; set; }
         public DbSet<IndivisualCustomer> IndivisualCustomer { get; set; }
-        public DbSet<ProductService> ProductService { get;set; }
+        public DbSet<ProductService> ProductService { get; set; }
+        public DbSet<MeetingMinutesMaster> MmeetingMinutesMaster { get; set; }
     }
 }

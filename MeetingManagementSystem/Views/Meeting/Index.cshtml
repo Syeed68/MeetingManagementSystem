@@ -194,7 +194,7 @@
                     var option = ``;
                     option += `<option value="">Select customer name</option>`
                     $.each(res, function (key, value) {
-                        option += `<option value="${key.id}">${value.name}</opton>`
+                        option += `<option value="${value.id}">${value.name}</opton>`
                     });
                     list.append(option);
                     
@@ -270,8 +270,8 @@
                 content = ``;
                 content += `<tr>
                             <td>${sl++}</td>
-                            <td><span id="prId" style="display:none;">${productInfo.productId}</span><span id="prName">${productInfo.productName}</span></td>
-                            <td><span id="prQty">${productInfo.quantity}</span></td>
+                            <td><input id="prId" type="hidden" value="${productInfo.productId}"/><span id="prName">${productInfo.productName}</span></td>
+                            <td style="text-align:center;"><input type="text" class="quantity" value="${productInfo.quantity}" style="text-align:center;width:40%;" disabled/></td>
                             <td><span id="prUnit">${productInfo.unit}</span></td>
                             <td><a class="btn btn-sm btn-primary edit" href = "#" >Edit</a>&nbsp;<a class="btn btn-sm btn-danger delete" href = "#" >Delete</a></td>
                         </tr>`
@@ -287,9 +287,9 @@
         });
         $(document).on("click", ".edit", function (e) {
             e.preventDefault();
-            let productId = $(this).closest("tr").find("#prId").text();
+            let productId = $(this).closest("tr").find("#prId").val();
             $("#product").val(productId).trigger("change");
-            $("#quantity").val($(this).closest("tr").find("#prQty").text());
+            $("#quantity").val($(this).closest("tr").find(".quantity").val());
             $("#unit").val($(this).closest("tr").find("#prUnit").text());
             $("#btnUpdate").show();
             $("#btnAdd").hide();
@@ -311,11 +311,11 @@
             productInfo.unit = $("#unit").val();
 
             $("#productTbl tbody tr").each(function () {
-                let productId = +$(this).find("#prId").text();
+                let productId = +$(this).find("#prId").val();
                 if (productInfo.productId == productId) {
-                    $(this).find("#prId").text(productInfo.productId);
+                    $(this).find("#prId").val(productInfo.productId);
                     $(this).find("#prName").text(productInfo.productName);
-                    $(this).find("#prQty").text(productInfo.quantity);
+                    $(this).find(".quantity").val(productInfo.quantity);
                     $(this).find("#prUnit").text(productInfo.unit);
                 }
             });
@@ -337,7 +337,8 @@
                     attendsFromHostSide: "",
                     meetingAgenda: "",
                     meetingDiscussion: "",
-                    meetingDecision: ""
+                    meetingDecision: "",
+                    products:""
                 }
                 meetingMinutesMaster.customerId = $("#name").val();
                 meetingMinutesMaster.date = $("#date").val();
@@ -349,7 +350,13 @@
                 meetingMinutesMaster.meetingDiscussion = $("#meetingDiscussion").val();
                 meetingMinutesMaster.meetingDecision = $("#meetingDecision").val();
 
-               
+                var products = [];
+                $("#prId").each(function (key, value) {
+                    let productId = $(this).val();
+                    let quantity = parseFloat($(this).closest("tr").find(".quantity").val());
+                    products.push({ productId: productId, quantity: quantity })
+                });
+                meetingMinutesMaster.products = products;
                 $.ajax({
                     url: "/Meeting/Create",
                     data: { meetingMinutesMaster: meetingMinutesMaster },

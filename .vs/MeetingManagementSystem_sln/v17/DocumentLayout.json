@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|solutionrelative:meetingmanagementsystem\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|g:\\new folder (3)\\testproject\\meetingmanagementsystem\\meetingmanagementsystem\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|solutionrelative:meetingmanagementsystem\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|g:\\new folder (3)\\testproject\\meetingmanagementsystem\\meetingmanagementsystem\\models\\entities\\meetingminutesmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|solutionrelative:meetingmanagementsystem\\models\\entities\\meetingminutesmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|g:\\new folder (3)\\testproject\\meetingmanagementsystem\\meetingmanagementsystem\\controllers\\productservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|solutionrelative:meetingmanagementsystem\\controllers\\productservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|g:\\new folder (3)\\testproject\\meetingmanagementsystem\\meetingmanagementsystem\\models\\viewmodel\\vmmeetingminutesmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|solutionrelative:meetingmanagementsystem\\models\\viewmodel\\vmmeetingminutesmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|g:\\new folder (3)\\testproject\\meetingmanagementsystem\\meetingmanagementsystem\\models\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|solutionrelative:meetingmanagementsystem\\models\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|g:\\new folder (3)\\testproject\\meetingmanagementsystem\\meetingmanagementsystem\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|solutionrelative:meetingmanagementsystem\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7A7F8CE-117A-4664-877D-E8B741B184DD}|MeetingManagementSystem\\MeetingManagementSystem.csproj|g:\\new folder (3)\\testproject\\meetingmanagementsystem\\meetingmanagementsystem\\models\\entities\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,8 +34,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MeetingManagementSystem\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MeetingManagementSystem\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:10:51.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VMmeetingMinutesMaster.cs",
+              "DocumentMoniker": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Models\\ViewModel\\VMmeetingMinutesMaster.cs",
+              "RelativeDocumentMoniker": "MeetingManagementSystem\\Models\\ViewModel\\VMmeetingMinutesMaster.cs",
+              "ToolTip": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Models\\ViewModel\\VMmeetingMinutesMaster.cs",
+              "RelativeToolTip": "MeetingManagementSystem\\Models\\ViewModel\\VMmeetingMinutesMaster.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T16:10:00.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MeetingMinutesMaster.cs",
+              "DocumentMoniker": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Models\\Entities\\MeetingMinutesMaster.cs",
+              "RelativeDocumentMoniker": "MeetingManagementSystem\\Models\\Entities\\MeetingMinutesMaster.cs",
+              "ToolTip": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Models\\Entities\\MeetingMinutesMaster.cs",
+              "RelativeToolTip": "MeetingManagementSystem\\Models\\Entities\\MeetingMinutesMaster.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T15:57:34.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeetingController.cs",
+              "DocumentMoniker": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Controllers\\MeetingController.cs",
+              "RelativeDocumentMoniker": "MeetingManagementSystem\\Controllers\\MeetingController.cs",
+              "ToolTip": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Controllers\\MeetingController.cs",
+              "RelativeToolTip": "MeetingManagementSystem\\Controllers\\MeetingController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwB4AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T03:07:16.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Views\\Meeting\\Index.cshtml",
+              "RelativeDocumentMoniker": "MeetingManagementSystem\\Views\\Meeting\\Index.cshtml",
+              "ToolTip": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Views\\Meeting\\Index.cshtml",
+              "RelativeToolTip": "MeetingManagementSystem\\Views\\Meeting\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T16:16:36.297Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -46,73 +107,7 @@
               "RelativeToolTip": "MeetingManagementSystem\\Models\\Entities\\ProductService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAMwA4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T04:35:27.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Models\\Entities\\Customer.cs",
-              "RelativeDocumentMoniker": "MeetingManagementSystem\\Models\\Entities\\Customer.cs",
-              "ToolTip": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Models\\Entities\\Customer.cs",
-              "RelativeToolTip": "MeetingManagementSystem\\Models\\Entities\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T04:35:22.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MeetingController.cs",
-              "DocumentMoniker": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Controllers\\MeetingController.cs",
-              "RelativeDocumentMoniker": "MeetingManagementSystem\\Controllers\\MeetingController.cs",
-              "ToolTip": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Controllers\\MeetingController.cs",
-              "RelativeToolTip": "MeetingManagementSystem\\Controllers\\MeetingController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T03:07:16.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductServiceController.cs",
-              "DocumentMoniker": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Controllers\\ProductServiceController.cs",
-              "RelativeDocumentMoniker": "MeetingManagementSystem\\Controllers\\ProductServiceController.cs",
-              "ToolTip": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Controllers\\ProductServiceController.cs",
-              "RelativeToolTip": "MeetingManagementSystem\\Controllers\\ProductServiceController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBoAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T03:04:18.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "MeetingManagementSystem\\Controllers\\CustomerController.cs",
-              "ToolTip": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "MeetingManagementSystem\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T15:34:35.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Views\\Meeting\\Index.cshtml",
-              "RelativeDocumentMoniker": "MeetingManagementSystem\\Views\\Meeting\\Index.cshtml",
-              "ToolTip": "G:\\New folder (3)\\TestProject\\MeetingManagementSystem\\MeetingManagementSystem\\Views\\Meeting\\Index.cshtml",
-              "RelativeToolTip": "MeetingManagementSystem\\Views\\Meeting\\Index.cshtml",
-              "ViewState": "AQIAAHcBAAAAAAAAAAAAAIcBAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-10T16:16:36.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T04:35:27.555Z"
             }
           ]
         }
