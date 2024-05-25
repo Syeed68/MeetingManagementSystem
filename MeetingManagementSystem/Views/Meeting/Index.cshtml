@@ -263,6 +263,16 @@
                     quantity:"",
                     unit:""
                 }
+                if (!parseFloat($("#quantity").val())) {
+                    alert("Quantity is required");
+                    return;
+                }
+
+                if ($("#product option:selected").val() == "") {
+                    alert("product is required");
+                    return;
+                }
+
                 productInfo.productId = $("#product").val();
                 productInfo.productName = $("#product option:selected").text();
                 productInfo.quantity = $("#quantity").val();
@@ -349,7 +359,7 @@
                 meetingMinutesMaster.meetingAgenda = $("#meetingAgenda").val();
                 meetingMinutesMaster.meetingDiscussion = $("#meetingDiscussion").val();
                 meetingMinutesMaster.meetingDecision = $("#meetingDecision").val();
-
+                
                 var products = [];
                 $("#prId").each(function (key, value) {
                     let productId = $(this).val();
@@ -359,7 +369,7 @@
                 meetingMinutesMaster.products = products;
                 $.ajax({
                     url: "/Meeting/Create",
-                    data: { meetingMinutesMaster: meetingMinutesMaster },
+                    data: { vm: meetingMinutesMaster },
                     dataType:"json",
                     type: "post",
                     success: function(res){
@@ -396,6 +406,25 @@
                 meetingDiscussion: 'Meeting Discussion is required',
                 meetingDecision: 'Meeting Decision is required',
             }, 
+            highlight: function (element) {
+                $(element).parent().addClass('error')
+            },
+            unhighlight: function (element) {
+                $(element).parent().removeClass('error')
+            }
+        });
+
+        $("#addProductForm").validate({
+            rules: {
+                product: { required: true },
+                quantity: { required: true },
+                unit: { required: true }
+            },
+            messages: {
+                product: 'Product is required',
+                quantity: 'Quantity is required',
+                unit: 'Unit is required'
+            },
             highlight: function (element) {
                 $(element).parent().addClass('error')
             },
